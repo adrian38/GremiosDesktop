@@ -1,0 +1,24 @@
+#profesion_table{
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+
+
+}
+
+.nav--backgroug-transparent{
+    background-color: transparent !important;
+}
+
+.button-order_by{
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+}
+
+.navbar-nav .nav-item{
+    margin-left: 5%;
+}
