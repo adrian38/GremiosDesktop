@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { TableComponent } from './table/table.component';
 import { RegisterComponent } from './register/register.component';
 
+
+//////////////////////////////Servicios
+import {AuthOdooService} from './services/auth-odoo.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +21,10 @@ import { RegisterComponent } from './register/register.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    AuthOdooService,
+  ],
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }
